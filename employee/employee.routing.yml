@@ -1,0 +1,7 @@
+employee.createEmployee:
+  path: '/employees'
+  defaults:
+    _controller: '\Drupal\employee\Controller\EmployeeController::createEmployee'
+    _title: 'Create Employee'
+  requirements:
+    _permission: 'access content'
